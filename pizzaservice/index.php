@@ -1,28 +1,25 @@
-<!DOCTYPE html>
-<html lang="DE">
-  <head>
-    <meta charset="utf-8">
-    <title>Bestellseite</title>
-  </head>
-  <body>
+<?php
+include 'includes/header.php';
+ ?>
+
     <h1>Bestellung</h1>
     <h1>Speisekarte</h1>
 
     <figure>
-      <img src="Pics/margherita.png" alt="Margherita"> <br/>
+      <img src="img/margherita.png" alt="Margherita"> <br/>
         <figcaption> Margherita</figcaption> <br/>
           4.00 €
     </figure>
     <br/>
     <figure>
-      <img src="Pics/Salami.png" alt="Salamipizza"> <br/>
+      <img src="img/Salami.png" alt="Salamipizza"> <br/>
       <figcaption>Salami</figcaption> <br/>
       4.50 €
     </figure>
 
   <br/>
   <figure>
-    <img src="Pics/Hawaii.png" alt="Hawaii">  <br/>
+    <img src="img/Hawaii.png" alt="Hawaii">  <br/>
     <figcaption>Hawaii</figcaption> <br/>
     5.50 €
   </figure>
