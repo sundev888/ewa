@@ -1,7 +1,7 @@
 <?php
 include 'includes/header.php';
  ?>
-
+<link rel="stylesheet" href="main.css">
     <h1>Bestellung</h1>
     <h1>Speisekarte</h1>
 
