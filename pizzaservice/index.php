@@ -31,7 +31,7 @@ include 'includes/header.php';
       <option value="Salami">Salami</option>
       <option  value="Hawaii">Hawaii</option>
     </select>
-    <input type= "submit" name= "submit" value="pijhkjhkjkkkjhzza">
+    <input type= "submit" name= "submit" value="Submit">
     </form>
 
 
