@@ -1,8 +1,9 @@
-header{
-  background-image: url("img/pizzabackground.jpg");
-  background-size: cover;
-}
-nav{
+/* header{
+  background-image: url("img/pizzabackground.jpg"); 
+   background-size: cover; 
+} */
+
+/* nav{
   float: left;
 }
 nav ul li{
@@ -11,14 +12,34 @@ nav ul li{
 }
 nav ul{
   list-style: none;
-}
-nav a{
-  font-size: 20px;
+} */
+
+header a{
   text-decoration: none;
   color: white;
-}
+} 
+
 header::after{
   content: "";
   display: table;
   clear: both;
+}
+
+.header-nav a:hover {
+  background-color: #ddd;
+  transition: ease-in 250ms;
+}
+
+.header-nav a{
+  float: right;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.header{
+  float: right;
+}
+
+.logo{
+  float: left;
 }

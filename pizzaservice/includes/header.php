@@ -7,16 +7,13 @@
   </head>
   <body>
     <header>
-    <nav>
-      <h1 style="color: violet; margin-left: 50px">Pizza2Go</h1>
-      <ul>
-        <li><a href="index.php">Übersicht</a></li>
-        <li><a href="order.php">Order </a></li>
-        <li><a href="kunde.php">Kunde</a></li>
-        <li><a href="bäcker.php">Bäcker</a></li>
-        <li><a href="fahrer.php">Fahrer</a></li>
-      </ul>
-    </nav>
+      <h1><a class="logo" href="index.php">Pizza2Go</a></h1>
+      <div class="header-nav">
+        <a href="order.php">Order </a>  
+        <a href="kunde.php">Kunde</a>      
+        <a href="bäcker.php">Bäcker</a>
+        <a href="fahrer.php">Fahrer</a>
+      </div>
   </header>
 </body>
 </html>
