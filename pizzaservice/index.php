@@ -56,4 +56,7 @@ if(isset($_POST["submit"])){
 <form action="test.php" method="get" id="auchTest">
 </form>
   </body>
+  <?php 
+include 'includes/footer.php';
+?>
 </html>
