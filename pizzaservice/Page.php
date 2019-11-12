@@ -15,7 +15,6 @@
  * @Release  1.2 
  * @link     http://www.fbi.h-da.de 
  */
- 
 /**
  * This abstract class is a common base class for all 
  * HTML-pages to be created. 
@@ -36,7 +35,7 @@ abstract class Page
      * Reference to the MySQLi-Database that is
      * accessed by all operations of the class.
      */
-    protected $host = "local";
+    protected $host = "localhost";
     protected $dbName = "ewa";
     protected $dbUsername = "root";
     protected $dbPassword = "";
@@ -56,15 +55,8 @@ abstract class Page
      */
     protected function __construct() 
     {
-        $this->_database =new mysqli($this->dbName, $this->host,
-                         $this->dbUsername, $this->dbPassword);
-        
-         // Error handling
-		if(mysqli_connect_error()) {
-			trigger_error("Failed to conencto to MySQL: " . mysql_connect_error(),
-				 E_USER_ERROR);
-		}
-        
+        $this->_database =new mysqli($this->host, $this->dbUsername,
+         $this->dbPassword, $this->dbName) or die('unable to create');
     }
     
     /**
@@ -74,7 +66,7 @@ abstract class Page
      */
     protected function __destruct()    
     {
-        mysqli_close($_database);
+        mysqli_close($this->_database);
         // to do: close database
     }
     

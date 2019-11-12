@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header>
+    <header class="pageHeader">
       <h1><a class="logo" href="index.php">Pizza2Go</a></h1>
       <div class="header-nav">
         <a href="order.php">Order </a>  
