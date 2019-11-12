@@ -16,3 +16,6 @@ include 'includes/header.php';
 <form action="">
     <input type="button" value="Neue Bestellung">
 </form>
+<?php 
+include 'includes/footer.php'
+?>
